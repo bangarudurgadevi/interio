@@ -1,0 +1,32 @@
+.categories-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 8%;
+
+}
+.categories-left h1{
+    font-size: 2rem;
+    font-weight: 700 ;
+}
+.categories-left img{
+    margin: 0 30%;
+    max-width:60% ;
+}
+.categories-right h1{
+    font-size: 1.2rem;
+
+
+}
+ .card img{
+    width: 240px;
+    height: 280px;
+    margin: 40% 0 0;
+ }
+ .card{
+    text-align: center;
+    padding: 30px 30px;
+    border: none;
+    background-color: #F1F1F1;
+    height: 400px !important;
+
+ }

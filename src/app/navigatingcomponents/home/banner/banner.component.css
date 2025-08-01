@@ -1,0 +1,36 @@
+.banner{
+    background-image: url(../../../../assets/home/banner/banner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-content{
+    
+   
+    color:#fff;
+    
+}
+.banner-content h1{
+     font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding: 8% 34% 0;
+    
+
+}
+button{
+    margin: 4% 41%;
+    background-color:#F6B50E;
+    color: #fff;
+    padding: 17px 40px;
+    border: none;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+.banner-content img{
+    margin: 0 34%;
+    max-width:18%;
+}
