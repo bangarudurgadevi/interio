@@ -17,16 +17,29 @@
 
 
 }
- .card img{
-    width: 240px;
-    height: 280px;
-    margin: 40% 0 0;
+.card img{
+    width: 220px;
+    height: 250px;
+    margin: 40% 5% ;
  }
- .card{
+ 
+.card{
     text-align: center;
-    padding: 30px 30px;
+    padding: 5px 5px;
     border: none;
     background-color: #F1F1F1;
-    height: 400px !important;
+    height: 380px !important;
+    margin: 20px 20px;
+    
 
  }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+ }
+.container h1{
+    margin: 5%;
+    font-size: 2rem;
+}
+ 

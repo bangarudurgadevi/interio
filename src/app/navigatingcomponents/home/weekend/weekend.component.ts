@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./weekend.component.css']
 })
 export class WeekendComponent {
+  weekend={
+    img:'../../../../assets/home/weekend/bed.png',
+    alt:''
+  }
 
 }

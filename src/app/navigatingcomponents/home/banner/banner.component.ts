@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent {
+  banner={
+    src:'../../../../assets/home/banner/tick.png',
+    alt:''
+  }
 
 }

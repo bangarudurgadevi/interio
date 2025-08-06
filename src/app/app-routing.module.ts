@@ -7,9 +7,9 @@ import { InteriordesignComponent } from './navigatingcomponents/interiordesign/i
 import { PropertyComponent } from './navigatingcomponents/property/property.component';
 
 const routes: Routes = [
-   { path: '', component: HomeComponent },
-  { path: 'categories', component: CategoriesComponent},
-  { path: 'furniture', component:FurnitureComponent },
+  { path: '', component: HomeComponent },
+  { path: 'categories', component: CategoriesComponent },
+  { path: 'furniture', component: FurnitureComponent },
   { path: 'interiordesign', component: InteriordesignComponent },
   { path: 'property', component: PropertyComponent },
   { path: '**', component: HomeComponent }

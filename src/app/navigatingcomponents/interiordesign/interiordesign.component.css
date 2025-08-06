@@ -1,0 +1,17 @@
+.row{
+    margin: 10% 4% 10%;
+}
+.filters{
+    height: 800px;
+   
+    background-color: #000;
+    margin: 10% 30px;
+
+}
+section{
+    display: flex;
+}
+.card{
+    max-width: 400px !important;
+
+}

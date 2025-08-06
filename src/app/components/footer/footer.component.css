@@ -1,0 +1,41 @@
+.footer-content{
+    background-color: #29795A;
+    margin-top: -11%;
+    padding: 10% 30%;
+}
+img{
+    margin: 0 10%;
+}
+button{
+    background-color:#F6B50E;
+    color: #fff;
+    padding: 17px 40px;
+    border: none;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+.footer-img h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: 35%;
+    padding: 0 0 20px;
+
+
+}
+.footer-details{
+    margin: -23% 20% 0;
+
+}
+.container1{
+    margin: 20% 0 0;
+    padding: 0;
+    color: #fff;
+     
+
+}
+.col li{
+   list-style-type: none; 
+}
+

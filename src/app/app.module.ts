@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -13,6 +13,13 @@ import { HomeComponent } from './navigatingcomponents/home/home.component';
 import { BannerComponent } from './navigatingcomponents/home/banner/banner.component';
 import { CategoryComponent } from './navigatingcomponents/home/category/category.component';
 import { WeekendComponent } from './navigatingcomponents/home/weekend/weekend.component';
+import { CategoriesBannerComponent } from './navigatingcomponents/categories/categories-banner/categories-banner.component';
+import { CategoriesCardsComponent } from './navigatingcomponents/categories/categories-cards/categories-cards.component';
+import { Navbar1Component } from './navigatingcomponents/categories/navbar1/navbar1.component';
+import { FormsModule } from '@angular/forms';
+
+
+
 
 @NgModule({
   declarations: [
@@ -26,11 +33,20 @@ import { WeekendComponent } from './navigatingcomponents/home/weekend/weekend.co
     HomeComponent,
     BannerComponent,
     CategoryComponent,
-    WeekendComponent
+    WeekendComponent,
+    CategoriesBannerComponent,
+    CategoriesCardsComponent,
+    Navbar1Component,
+   
+    
+    
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
