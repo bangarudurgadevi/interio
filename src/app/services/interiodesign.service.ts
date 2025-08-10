@@ -7,7 +7,7 @@ import { Interiodesign } from '../models/interiodesign';
   providedIn: 'root'
 })
 export class InteriodesignService {
-   private baseurl="https://sheetdb.io/api/v1/58goh87oqvp8i";
+   private baseurl="assets/json/interiordesign.json";
   constructor(private http:HttpClient) { }
   getproducts():Observable<Interiodesign[]> {
     return this.http.get<Interiodesign[]>(this.baseurl);

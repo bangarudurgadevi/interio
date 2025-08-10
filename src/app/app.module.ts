@@ -17,6 +17,8 @@ import { CategoriesBannerComponent } from './navigatingcomponents/categories/cat
 import { CategoriesCardsComponent } from './navigatingcomponents/categories/categories-cards/categories-cards.component';
 import { Navbar1Component } from './navigatingcomponents/categories/navbar1/navbar1.component';
 import { FormsModule } from '@angular/forms';
+import { Banner2Component } from './navigatingcomponents/interiordesign/banner2/banner2.component';
+import { ProductdetailsComponent } from './navigatingcomponents/interiordesign/productdetails/productdetails.component';
 
 
 
@@ -37,6 +39,10 @@ import { FormsModule } from '@angular/forms';
     CategoriesBannerComponent,
     CategoriesCardsComponent,
     Navbar1Component,
+    Banner2Component,
+    ProductdetailsComponent,
+    
+    
    
     
     

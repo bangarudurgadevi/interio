@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Sofa Set",
+    "price": 1299.99,
+    "category": "Living Room",
+    "image": "assets/images/1.png",
+    "alt": "Gray fabric sofa in a modern living room",
+    "description": "3-seater sofa with high-density foam cushions and wooden legs.",
+    "button": "Explore",
+    "ratings": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Minimalist Coffee Table",
+    "price": 199.99,
+    "category": "Living Room",
+     "image": "assets/images/2.png",
+    "alt": "White round coffee table with metal legs",
+    "description": "Sleek Scandinavian-style table for small spaces.",
+    "button": "Explore",
+    "ratings": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Scandinavian Dining Chair",
+    "price": 149.99,
+    "category": "Dining Room",
+ "image": "assets/images/3.png",
+    "alt": "Light wood dining chair with curved back",
+    "description": "Handcrafted from sustainable oak with ergonomic design.",
+    "button": "Explore",
+    "ratings": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Industrial Bookshelf",
+    "price": 349.99,
+    "category": "Living Room",
+     "image": "assets/images/4.png",
+    "alt": "Black metal bookshelf with wooden shelves",
+    "description": "Sturdy open shelving unit for books and decor.",
+    "button": "Explore",
+    "ratings": 4.4
+  },
+  {
+    "id": 5,
+    "name": "Luxury King Bed",
+    "price": 1899.99,
+    "category": "Bedroom",
+     "image": "assets/images/5.png",
+    "alt": "Upholstered king-size bed with tufted headboard",
+    "description": "Premium fabric bed frame with reinforced wooden slats.",
+    "button": "Explore",
+    "ratings": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Vintage Armchair",
+    "price": 279.99,
+    "category": "Living Room",
+    "image":  "assets/images/6.png",
+    "alt": "Retro-style armchair in mustard yellow",
+    "description": "Mid-century inspired chair with velvet upholstery.",
+    "button": "Explore",
+    "ratings": 4.6
+  },
+  {
+    "id": 7,
+    "name": "Glass TV Stand",
+    "price": 229.99,
+    "category": "Living Room",
+    "image":  "assets/images/7.png",
+    "alt": "Tempered glass TV console with metal frame",
+    "description": "Sleek and modern design with cable management.",
+    "button": "Explore",
+    "ratings": 4.3
+  },
+  {
+    "id": 8,
+    "name": "Rustic Wooden Desk",
+    "price": 399.99,
+    "category": "Office",
+    "image":  "assets/images/8.png",
+    "alt": "Reclaimed wood desk with iron legs",
+    "description": "Spacious work surface with a natural wood finish.",
+    "button": "Explore",
+    "ratings": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Leather Recliner",
+    "price": 599.99,
+    "category": "Living Room",
+    "image": "assets/images/9.png",
+    "alt": "Brown leather recliner chair with footrest",
+    "description": "Hand-stitched genuine leather with adjustable backrest.",
+    "button": "Explore",
+    "ratings": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Marble Side Table",
+    "price": 179.99,
+    "category": "Living Room",
+    "image": "assets/images/10.png",
+    "alt": "White marble top side table with gold legs",
+    "description": "Elegant accent table for living rooms and bedrooms.",
+    "button": "Explore",
+    "ratings": 4.4
+  },
+  {
+    "id": 11,
+    "name": "Wall-Mounted Shelves",
+    "price": 89.99,
+    "category": "Living Room",
+    "image": "assets/images/11.png",
+    "alt": "Floating wooden shelves on a white wall",
+    "description": "Set of 3 minimalist shelves for books and decor.",
+    "button": "Explore",
+    "ratings": 4.1
+  },
+  {
+    "id": 12,
+    "name": "Velvet Sectional Sofa",
+    "price": 2199.99,
+    "category": "Living Room",
+    "image": "assets/images/12.png",
+    "alt": "Blue velvet L-shaped sectional sofa",
+    "description": "Luxurious and spacious seating with deep cushions.",
+    "button": "Explore",
+    "ratings": 4.9
+  },
+  {
+    "id": 13,
+    "name": "Modern Bar Stool",
+    "price": 129.99,
+    "category": "Kitchen",
+    "image": "assets/images/13.png",
+    "alt": "Black metal bar stool with padded seat",
+    "description": "Adjustable height for kitchen islands and bars.",
+    "button": "Explore",
+    "ratings": 4.3
+  },
+  {
+    "id": 14,
+    "name": "Bamboo Room Divider",
+    "price": 159.99,
+    "category": "Living Room",
+    "image": "assets/images/14.png",
+    "alt": "Natural bamboo folding room divider",
+    "description": "Adds privacy and a natural aesthetic to any space.",
+    "button": "Explore",
+    "ratings": 4.0
+  },
+  {
+    "id": 15,
+    "name": "Kids' Bunk Bed",
+    "price": 699.99,
+    "category": "Kids Room",
+    "image": "assets/images/15.png",
+    "alt": "White wooden bunk bed with safety rails",
+    "description": "Space-saving solution with built-in ladder.",
+    "button": "Explore",
+    "ratings": 4.6
+  },
+  {
+    "id": 16,
+    "name": "Acacia Wood Dining Table",
+    "price": 799.99,
+    "category": "Dining Room",
+    "image": "assets/images/16.png",
+    "alt": "Rectangular dining table with natural wood grain",
+    "description": "Seats 6-8 people, durable and scratch-resistant.",
+    "button": "Explore",
+    "ratings": 4.7
+  },
+  {
+    "id": 17,
+    "name": "Hanging Egg Chair",
+    "price": 349.99,
+    "category": "Outdoor",
+    "image": "assets/images/17.png",
+    "alt": "Rattan hanging chair with cushion",
+    "description": "Perfect for balconies, patios, or reading nooks.",
+    "button": "Explore",
+    "ratings": 4.8
+  },
+  {
+    "id": 18,
+    "name": "Glass Display Cabinet",
+    "price": 499.99,
+    "category": "Living Room",
+    "image": "assets/images/18.png",
+    "alt": "Glass-door cabinet with LED lighting",
+    "description": "Showcase collectibles, china, or books in style.",
+    "button": "Explore",
+    "ratings": 4.5
+  },
+  {
+    "id": 19,
+    "name": "Floating Nightstand",
+    "price": 119.99,
+    "category": "Bedroom",
+    "image": "assets/images/19.png",
+    "alt": "Wall-mounted bedside table with drawer",
+    "description": "Saves floor space while offering storage.",
+    "button": "Explore",
+    "ratings": 4.2
+ 
+  }
+]

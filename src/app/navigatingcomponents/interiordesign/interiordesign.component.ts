@@ -14,6 +14,10 @@ export class InteriordesignComponent implements OnInit {
   selectedcategory: string = '';
   selectedprice: string = '';
   searchitem: string = '';
+  currentpage=1;
+  pagesize=8;
+  totalpages=0;
+  pageproducts:any[]=[];
 
   constructor(private service: InteriodesignService) { }
 
@@ -22,7 +26,9 @@ export class InteriordesignComponent implements OnInit {
       this.products = data;
       this.filterproducts = data;
       this.categories = [...new Set(data.map(p => p.category))];
+      this.updatepage();
     });
+    
   }
 
   filter(): void {
@@ -33,6 +39,7 @@ export class InteriordesignComponent implements OnInit {
         product.description.toLowerCase().includes(this.searchitem.toLowerCase()) : true;
       return matchcategory && matchprice && matchsearch;
     });
+    this.updatepage();
   }
 
   resetfilter(): void {
@@ -40,5 +47,25 @@ export class InteriordesignComponent implements OnInit {
     this.selectedprice = '';
     this.searchitem = '';
     this.filterproducts = [...this.products];
+    this.updatepage();
+  }
+  updatepage(){
+    this.totalpages=Math.ceil(this.filterproducts.length /this.pagesize);
+    const startindex=(this.currentpage -1)*this.pagesize;
+    const endindex=startindex+this.pagesize;
+    this.pageproducts=this.filterproducts.slice(startindex,endindex);
+
+  }
+  nextpage(){
+    if(this.currentpage < this.totalpages){
+      this.currentpage++;
+      this.updatepage();
+    }
+  }
+  previouspage(){
+    if(this.currentpage > 1){
+      this.currentpage--;
+      this.updatepage();
+    }
   }
 }

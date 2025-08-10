@@ -1,0 +1,9 @@
+<div class="loading" *ngIf="isloading">
+    loading productdetailes
+</div>
+<div class="product-details" *ngIf="!isloading && product">
+  <img [src]="product.image" [alt]="product.alt">
+  <h1>{{product.name}}</h1>
+  <p>{{product.price}}</p>
+  <p>{{product.description}}</p>
+</div>

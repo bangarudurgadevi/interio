@@ -1,4 +1,4 @@
-<app-navbar1></app-navbar1>
+<app-banner2></app-banner2>
 <section>
     <div class="filters">
         <select [(ngModel)]="selectedcategory" (change)="filter()">
@@ -14,17 +14,17 @@
             <option value="2000">Below 2000</option>
 
         </select>
-
+        <button (click)="resetfilter()">Reset</button>
     </div>
     <div class="categories-images">
         <div class="search-operation">
             <input type="text" placeholder="search product" [(ngModel)]="searchitem" (input)="filter()">
-            <button (click)="resetfilter()">Reset</button>
+
         </div>
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
 
-            <div class="col" *ngFor="let product of filterproducts">
+            <div class="col" *ngFor="let product of pageproducts" [routerLink]="['/product',product.id]">
 
                 <div class="card">
                     <img [src]="product.image" [alt]="product.alt">
@@ -34,6 +34,14 @@
 
                 </div>
             </div>
+        </div>
+        <div class="page">
+            <button (click)="previouspage()" [disabled]="currentpage === 1">
+                previous
+            </button>
+            <button (click)="nextpage()" [disabled]="currentpage === totalpages">
+                next
+            </button>
         </div>
     </div>
 </section>

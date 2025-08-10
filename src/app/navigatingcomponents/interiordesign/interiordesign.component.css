@@ -1,11 +1,16 @@
+
 .row{
-    margin: 10% 4% 10%;
+    margin: 10% 0% 10%;
 }
 .filters{
-    height: 800px;
-   
-    background-color: #000;
-    margin: 10% 30px;
+    height: 700px;
+    background-color: #ffffff;
+    margin: 15% 30px 10% 0;
+    width:30rem;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    box-shadow: 3px 3px 6px #e8e6e6;
+    padding: 8% 4% ;
 
 }
 section{
@@ -13,5 +18,46 @@ section{
 }
 .card{
     max-width: 400px !important;
+    margin: 0 !important;
+    border-radius: 20px !important;
+    border:none;
+    text-align: center;
+    box-shadow: 3px 3px 6px #e8e6e6;
+    transition: transform 420ms;
 
+}
+.search-operation{
+    margin: 5% 0 0;
+
+}
+.search-operation input{
+    width: 600px;
+    height: 50px;
+    margin: 0 8%;
+    border-radius: 30px;
+    border:1px solid #777 ;
+    background-color: transparent;
+    box-shadow: 2px 2px 8px #e4e3e3 !important;
+    padding: 0px 20px;
+}
+.search-operation input::placeholder{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.card h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    padding: 10px 0;
+}
+.card p{
+    color: #777;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.filters select{
+    width: 100%;
+    margin: 5% 0;
+    
 }
