@@ -61,3 +61,23 @@ section{
     margin: 5% 0;
     
 }
+
+.page{
+    margin: 5%;
+    padding-left:25%;
+   
+  
+}
+.page button{
+   background-color:#f6b50e;
+   margin: 3px;
+   border-radius: 20px;
+   padding:8px;
+   box-shadow: 10px;
+   border:none;
+   
+}
+.filters button{
+    background-color: transparent;
+    padding:3px;
+}

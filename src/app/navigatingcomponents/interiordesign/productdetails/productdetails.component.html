@@ -1,9 +1,179 @@
 <div class="loading" *ngIf="isloading">
-    loading productdetailes
+  loading productdetailes
+</div>
+<div class="carousel">
+  <img src="../../../../assets/banner1.jpg" alt="">
+  
+</div>
+<div class="banner">
+  <h1>Top Brands Collection</h1>
+    <div class="banner-content">
+    <div class="row row-cols-1 row-cols-md-6 g-4">
+      <div class="col">
+    <img src="../../../../assets/banner/11.png" alt="">
+     <div class="item">
+    <h3>Chairs</h3>
+    <p>UPTO 40% OFF</p>
+    </div>
+     </div>
+    <div class="col">
+    <img src="../../../../assets/banner/10.png" alt="">
+    <div class="item">
+    <h3>Table</h3>
+    <p>UPTO 50% OFF</p>
+    </div>
+     </div>
+    <div class="col">
+    <img src="../../../../assets/banner/9.png" alt="">
+    <div class="item">
+    <h3> Chairs</h3>
+    <p>UPTO 45% OFF</p>
+    </div>
+     </div>
+    <div class="col">
+    <img src="../../../../assets/banner/12.png" alt="">
+    <div class="item">
+    <h3>Chairs</h3>
+    <p>UPTO 35% OFF</p>
+    </div>
+     </div>
+    <div class="col">
+    <img src="../../../../assets/banner/13.png" alt="">
+    <div class="item">
+    <h3>Chairs</h3>
+    <p>UPTO 45% OFF</p>
+    </div>
+     </div>
+     <div class="col">
+    <img src="../../../../assets/banner/14.png" alt="">
+    <div class="item">
+    <h3>Bed</h3>
+    <p>UPTO 50% OFF</p>
+    </div>
+     </div>
+    </div>
+  </div>
 </div>
 <div class="product-details" *ngIf="!isloading && product">
-  <img [src]="product.image" [alt]="product.alt">
-  <h1>{{product.name}}</h1>
-  <p>{{product.price}}</p>
-  <p>{{product.description}}</p>
-</div>
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image" [alt]="product.alt">
+        <div class="cards-content">
+        <h1>{{product.name}}</h1>
+        <p>{{product.price}}</p>
+        <p>{{product.description}}</p>
+        <p>{{product.category}}</p>
+        <P>{{product.ratings}}</P>
+        <button (click)= "Navigate()">BuyNow</button>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image1" [alt]="product.alt1">
+        <div class="cards-content">
+          <h1>{{product.name1}}</h1>
+          <p>{{product.price1}}</p>
+          <p>{{product.description1}}</p>
+          <p>{{product.category1}}</p>
+          <P>{{product.ratings1}}</P>
+          <button>{{product.button}}</button>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image2" [alt]="product.alt2">
+        <div class="cards-content">
+          <h1>{{product.name2}}</h1>
+          <p>{{product.price2}}</p>
+          <p>{{product.description2}}</p>
+          <p>{{product.category2}}</p>
+          <P>{{product.ratings2}}</P>
+          <button>{{product.button}}</button>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image3" [alt]="product.alt3">
+        <div class="cards-content">
+          <h1>{{product.name3}}</h1>
+          <p>{{product.price3}}</p>
+          <p>{{product.description3}}</p>
+          <p>{{product.category3}}</p>
+          <P>{{product.ratings3}}</P>
+          <button>{{product.button}}</button>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image4" [alt]="product.alt4">
+        <div class="cards-content">
+          <h1>{{product.name4}}</h1>
+          <p>{{product.price4}}</p>
+          <p>{{product.description4}}</p>
+          <p>{{product.category4}}</p>
+          <P>{{product.ratings4}}</P>
+          <button>{{product.button}}</button>
+        
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image5" [alt]="product.alt3">
+        <div class="cards-content">
+          <h1>{{product.name5}}</h1>
+          <p>{{product.price5}}</p>
+          <p>{{product.description5}}</p>
+          <p>{{product.category5}}</p>
+          <P>{{product.ratings5}}</P>
+          <button>{{product.button}}</button>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image6" [alt]="product.alt3">
+        <div class="cards-content">
+          <h1>{{product.name6}}</h1>
+          <p>{{product.price6}}</p>
+          <p>{{product.description6}}</p>
+          <p>{{product.category6}}</p>
+          <P>{{product.ratings6}}</P>
+          <button>{{product.button}}</button>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="cards">
+        <img [src]="product.image7" [alt]="product.alt3">
+        <div class="cards-content">
+          <h1>{{product.name7}}</h1>
+          <p>{{product.price7}}</p>
+          <p>{{product.description7}}</p>
+          <p>{{product.category7}}</p>
+          <P>{{product.ratings7}}</P>
+          <button>{{product.button}}</button>
+          
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>

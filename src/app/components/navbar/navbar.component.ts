@@ -10,6 +10,6 @@ export class NavbarComponent {
   item1:'Categories',
   item2:'Furniture',
   item3:'Interior Design',
-  item4:'Property'
+  item4:'Signup'
   }
 }

@@ -1,0 +1,33 @@
+  <div class="container" style="margin: 10% 0;"> 
+    <h2>Order</h2> 
+    <form [formGroup]="orderform" (ngSubmit)="onsubmit()">
+        <input type="text" placeholder="enter name" formControlName="ordername">
+        <div *ngIf="orderform.controls.ordername.invalid && orderform.controls.ordername.touched">
+            name must contain atleast four character
+        </div>
+        <input type="text" placeholder="enter address" formControlName="orderaddress">
+        <div *ngIf="orderform.controls.orderaddress.invalid && orderform.controls.orderaddress.touched">
+            address must contain atleast eight character
+        </div>
+        <input type="text" placeholder="enter pincode" formControlName="orderpincode">
+        <div *ngIf="orderform.controls.orderpincode.invalid && orderform.controls.orderpincode.touched">
+            pincode must contain atleast six character
+        </div>
+         <input type="text" placeholder="enter country" formControlName="ordercountry">
+        <div *ngIf="orderform.controls.ordercountry.invalid && orderform.controls.ordercountry.touched">
+            country must contain atleast tw0  character
+        </div>
+         <input type="text" placeholder="enter state" formControlName="orderstate">
+        <div *ngIf="orderform.controls.orderstate.invalid && orderform.controls.orderstate.touched">
+            state must contain atleast two character
+        </div>
+         <input type="number" placeholder="enter mobilenumber" formControlName="ordermobilenumber">
+        <div *ngIf="orderform.controls.ordermobilenumber.invalid && orderform.controls.ordermobilenumber.touched">
+            mobilenumber must contain atleast ten character
+        </div>
+        
+        <button  type="submit">orderform</button>
+    </form>
+    <p class="success" *ngIf="successmessage">{{successmessage}}</p>
+    <p class="error" *ngIf="errormessage">{{errormessage}}</p>
+ </div> 

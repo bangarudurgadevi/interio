@@ -6,6 +6,10 @@ import { FurnitureComponent } from './navigatingcomponents/furniture/furniture.c
 import { InteriordesignComponent } from './navigatingcomponents/interiordesign/interiordesign.component';
 import { PropertyComponent } from './navigatingcomponents/property/property.component';
 import { ProductdetailsComponent } from './navigatingcomponents/interiordesign/productdetails/productdetails.component';
+import { RegisterComponent } from './navigatingcomponents/register/register.component';
+import { OrdersComponent } from './navigatingcomponents/orders/orders.component';
+
+
 
 
 
@@ -16,7 +20,10 @@ const routes: Routes = [
   { path: 'furniture', component: FurnitureComponent },
   { path: 'interiordesign', component: InteriordesignComponent },
   { path: 'property', component: PropertyComponent },
+  { path: 'signup', component: RegisterComponent},
   { path: 'product/:id', component: ProductdetailsComponent},
+  { path: 'order', component:OrdersComponent},
+  
   { path: '**', component: HomeComponent }
 ];
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { InteriodesignService } from 'src/app/services/interiodesign.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { InteriodesignService } from 'src/app/services/interiodesign.service';
 export class ProductdetailsComponent {
   product!:any;
   isloading=true;
-  constructor(private service:InteriodesignService,private route:ActivatedRoute){
+  constructor(private service:InteriodesignService,private route:ActivatedRoute,private router:Router){
 
   }
 ngOnInit():void{
@@ -21,6 +21,12 @@ ngOnInit():void{
      this.isloading=false;
     })
   }
+
+}
+Navigate(){
+ this.router.navigate(['/order'])
+
+ 
 }
  
 

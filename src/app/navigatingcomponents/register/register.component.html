@@ -1,0 +1,20 @@
+ <div class="container" style="margin: 10% 0;"> 
+    <h2>Registration</h2> 
+    <form [formGroup]="registrationform" (ngSubmit)="onsubmit()">
+        <input type="text" placeholder="enter name" formControlName="name">
+        <div *ngIf="registrationform.controls.name.invalid && registrationform.controls.name.touched">
+            name must contain atleast four character
+        </div>
+        <input type="email" placeholder="enter email" formControlName="email">
+        <div *ngIf="registrationform.controls.email.invalid && registrationform.controls.email.touched">
+            enter a valid email
+        </div>
+        <input type="password" placeholder="enter password" formControlName="password">
+        <div *ngIf="registrationform.controls.password.invalid && registrationform.controls.password.touched">
+            password must contain atleast four character
+        </div>
+        <button type="submit">Register</button>
+    </form>
+    <p class="success" *ngIf="successmessage">{{successmessage}}</p>
+    <p class="error" *ngIf="errormessage">{{errormessage}}</p>
+ </div> 
